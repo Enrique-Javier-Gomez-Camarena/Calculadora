@@ -80,14 +80,14 @@ while True: #Con este ciclo se repetira la opcion de elegir opciones
         case 2:
             resta()#Te manda a la funcion de resta
         case 3:
-            multiplicacion()#Te manda a la funvion de multiplicacion
+            multiplicacion()#Te manda a la funcion de multiplicacion
         case 4: 
             division()#Te manda a la funcion de division
         case 5:
             potencia()#RTe mana la funcion de potencia
         case _:
             print("Opcion no valida")
-    opcion = str(input("\nQuieres elegir otra vez alguna opcion: "))#Le pregunta al usurio si quiere seguir usando la calculadora
+    opcion = str(input("\nQuieres elegir otra vez alguna opcion: "))#Le pregunta al usuario si quiere seguir usando la calculadora
     #con sus funciones, si responde no termina el programa
     if opcion == "No" or opcion == "no" or opcion == "N" or opcion == "n"or opcion == "NO":
             break
