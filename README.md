@@ -1,5 +1,23 @@
 # Calculadora
-Calculadora básica en python
+<h2> Calculadora básica en python </h2>
+##Descripción del proyecto
+Este proyecto es una calculadora interactiva en Python que permite realizar operaciones matemáticas básicas como suma, resta, multiplicación, división y potencias. El usuario puede elegir la operación que desea realizar y se le permite seguir operando con más números si así lo desea. El programa sigue funcionando hasta que el usuario decide salir.
+##Lista de funcionalidades implementadas
+Menú interactivo: Permite al usuario seleccionar qué operación desea realizar.
+
+Suma: Permite sumar dos o más números.
+
+Resta: Permite restar dos o más números en cadena.
+
+Multiplicación: Permite multiplicar dos o más números.
+
+División: Realiza divisiones y permite hacer más de una operación.
+
+Potencia: Calcula potencias de un número elevado a otro.
+
+Repetición de operaciones: Después de cada operación, se pregunta al usuario si desea realizar otra.
+
+Validación básica de entrada: Repite el menú si el usuario ingresa una opción inválida.
 def sumar():
     numero1 = float(input("Ingresa un numero: "))#Pide la computadora al usuario te de el primer numero
     numero2 = float(input("Ingresa otro numero: "))#Pide la computadora al usuario el segundo numero
